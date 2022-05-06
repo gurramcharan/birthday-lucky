@@ -1,0 +1,48 @@
+:root{
+    --primary-color: rgb(26, 21, 21);
+    --seconday-color: rgb(56, 220, 239);
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--seconday-color);
+}
+h1{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.container{
+    width:60%;
+    margin: auto;
+}
+
+label,input{
+    display: block;
+}
+label{
+    text-decoration: underline;
+}
+
+input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    margin: 0.7rem;
+}
+
+#check-number{
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    background: transparent;
+    color: var(--seconday-color);
+    border-color: var(--seconday-color);
+}
+
+#dis-area{
+    text-align: center;
+    padding: 00.5rem;
+    color: Green;
+    font-size: larger;
+    
+}
